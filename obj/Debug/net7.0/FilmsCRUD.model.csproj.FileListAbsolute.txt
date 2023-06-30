@@ -1,0 +1,12 @@
+C:\Users\kova_\source\repos\FilmsCRUD.model\obj\Debug\net7.0\FilmsCRUD.model.csproj.AssemblyReference.cache
+C:\Users\kova_\source\repos\FilmsCRUD.model\obj\Debug\net7.0\FilmsCRUD.model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kova_\source\repos\FilmsCRUD.model\obj\Debug\net7.0\FilmsCRUD.model.AssemblyInfoInputs.cache
+C:\Users\kova_\source\repos\FilmsCRUD.model\obj\Debug\net7.0\FilmsCRUD.model.AssemblyInfo.cs
+C:\Users\kova_\source\repos\FilmsCRUD.model\obj\Debug\net7.0\FilmsCRUD.model.csproj.CoreCompileInputs.cache
+C:\Users\kova_\source\repos\FilmsCRUD.model\bin\Debug\net7.0\FilmsCRUD.model.deps.json
+C:\Users\kova_\source\repos\FilmsCRUD.model\bin\Debug\net7.0\FilmsCRUD.model.dll
+C:\Users\kova_\source\repos\FilmsCRUD.model\bin\Debug\net7.0\FilmsCRUD.model.pdb
+C:\Users\kova_\source\repos\FilmsCRUD.model\obj\Debug\net7.0\FilmsCRUD.model.dll
+C:\Users\kova_\source\repos\FilmsCRUD.model\obj\Debug\net7.0\refint\FilmsCRUD.model.dll
+C:\Users\kova_\source\repos\FilmsCRUD.model\obj\Debug\net7.0\FilmsCRUD.model.pdb
+C:\Users\kova_\source\repos\FilmsCRUD.model\obj\Debug\net7.0\ref\FilmsCRUD.model.dll
