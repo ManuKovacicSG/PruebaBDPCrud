@@ -33,7 +33,8 @@ namespace BlazorCRUD.model
             { 
                 Name = item.name,
                 Gendre = item.gendre.name,
-                Character = item.characters
+                Character = item.characters,
+                PosterUrl = item.poster
             }).ToList();
 
         }
