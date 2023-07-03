@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kova_\\Source\\Repos\\FilmsCRUD.model\\FilmsCRUD.model.csproj": {}
+    "C:\\Users\\kova_\\source\\repos\\FilmsCRUD.model\\FilmsCRUD.model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kova_\\Source\\Repos\\FilmsCRUD.model\\FilmsCRUD.model.csproj": {
+    "C:\\Users\\kova_\\source\\repos\\FilmsCRUD.model\\FilmsCRUD.model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kova_\\Source\\Repos\\FilmsCRUD.model\\FilmsCRUD.model.csproj",
+        "projectUniqueName": "C:\\Users\\kova_\\source\\repos\\FilmsCRUD.model\\FilmsCRUD.model.csproj",
         "projectName": "FilmsCRUD.model",
-        "projectPath": "C:\\Users\\kova_\\Source\\Repos\\FilmsCRUD.model\\FilmsCRUD.model.csproj",
+        "projectPath": "C:\\Users\\kova_\\source\\repos\\FilmsCRUD.model\\FilmsCRUD.model.csproj",
         "packagesPath": "C:\\Users\\kova_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kova_\\Source\\Repos\\FilmsCRUD.model\\obj\\",
+        "outputPath": "C:\\Users\\kova_\\source\\repos\\FilmsCRUD.model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kova_\\AppData\\Roaming\\NuGet\\NuGet.Config",
