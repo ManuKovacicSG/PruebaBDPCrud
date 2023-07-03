@@ -1,19 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Json;
-using System.Threading.Tasks;
+﻿using System.Text.Json;
 
 
 namespace BlazorCRUD.model
 {
-    public class FilmsService : FilmsInterface
+    public class FilmsService : IFilmsInterface
     {
         private readonly HttpClient _httpClient;
-        const string _baseUrl = "http://albertbdp.somee.com/api/peliculas";
-        const string _filmsEndpoint = "http://albertbdp.somee.com/api/peliculas";
-        const string _host = "albertbdp.somee.com";
+        const string _baseUrl = "http://albertbdp.somee.com/api/";
+        const string _filmsEndpoint = "peliculas";
+
 
 
         public FilmsService(HttpClient httpClient) => _httpClient = httpClient;
@@ -29,8 +24,8 @@ namespace BlazorCRUD.model
             using var stream = await response.Content.ReadAsStreamAsync();
 
             FilmsDto? dto = await JsonSerializer.DeserializeAsync<FilmsDto>(stream);
-            return dto.data.Select(item => new FilmItem 
-            { 
+            return dto.data.Select(item => new FilmItem
+            {
                 Name = item.name,
                 Gendre = item.gendre.name,
                 Character = item.characters,
@@ -42,12 +37,13 @@ namespace BlazorCRUD.model
         private void ConfigureHttpClient()
         {
             _httpClient.BaseAddress = new Uri(_baseUrl);
-            _httpClient.DefaultRequestHeaders.Add("Films", _host);
+
         }
 
-        public Task<List<FilmItem>> GetFilms()
+        Task<List<FilmItem>> IFilmsInterface.GetFilms()
         {
             throw new NotImplementedException();
         }
+
     }
 }

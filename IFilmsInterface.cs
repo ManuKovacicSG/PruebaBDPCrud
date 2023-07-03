@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BlazorCRUD.model
 {
-    public interface FilmsInterface
+    public interface IFilmsInterface
     {
         Task<List<FilmItem>> GetFilms();
         //Task<FilmItem> GetFilmDetails(int id);
